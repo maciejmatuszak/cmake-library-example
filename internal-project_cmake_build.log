@@ -1,0 +1,12 @@
+[1/5] /usr/bin/c++   -I../libraries/SomeLibrary/include -g   -std=gnu++11 -MD -MT CMakeFiles/some-application.dir/main.cpp.o -MF CMakeFiles/some-application.dir/main.cpp.o.d -o CMakeFiles/some-application.dir/main.cpp.o -c ../main.cpp
+[2/5] /usr/bin/c++   -I../libraries/SomeLibrary/src -I../libraries/SomeLibrary/include -g   -Werror -std=gnu++11 -MD -MT libraries/SomeLibrary/CMakeFiles/SomeLibrary.dir/src/some.cpp.o -MF libraries/SomeLibrary/CMakeFiles/SomeLibrary.dir/src/some.cpp.o.d -o libraries/SomeLibrary/CMakeFiles/SomeLibrary.dir/src/some.cpp.o -c ../libraries/SomeLibrary/src/some.cpp
+[3/5] : && /usr/bin/cmake -E remove libraries/SomeLibrary/libSomeLibraryd.a && /usr/bin/ar qc libraries/SomeLibrary/libSomeLibraryd.a  libraries/SomeLibrary/CMakeFiles/SomeLibrary.dir/src/some.cpp.o && /usr/bin/ranlib libraries/SomeLibrary/libSomeLibraryd.a && :
+[4/5] : && /usr/bin/c++  -g   CMakeFiles/some-application.dir/main.cpp.o  -o some-application  libraries/SomeLibrary/libSomeLibraryd.a && :
+[4/5] cd /home/maciek/git/maciej/cmake-library-example/internal-project/build && /usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Debug"
+-- Installing: /home/maciek/git/maciej/cmake-library-example/install/lib/libSomeLibraryd.a
+-- Installing: /home/maciek/git/maciej/cmake-library-example/install/include/SomeLibrary/some.h
+-- Installing: /home/maciek/git/maciej/cmake-library-example/install/cmake/SomeLibraryTargets.cmake
+-- Installing: /home/maciek/git/maciej/cmake-library-example/install/cmake/SomeLibraryTargets-debug.cmake
+-- Installing: /home/maciek/git/maciej/cmake-library-example/install/cmake/SomeLibraryConfig.cmake
+-- Installing: /home/maciek/git/maciej/cmake-library-example/install/cmake/SomeLibraryConfigVersion.cmake

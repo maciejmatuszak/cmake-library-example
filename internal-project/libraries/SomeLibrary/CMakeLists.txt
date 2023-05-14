@@ -46,6 +46,10 @@ if(CMAKE_COMPILER_IS_GNUCXX)
 endif()
 
 # where to find our CMake modules
-set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+LIST(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 #message(STATUS "CMake module path: ${CMAKE_MODULE_PATH}")
 include(Installing)
+
+include(Debug)
+dump_cmake_variables()
+dump_target_properties(SomeLibrary)

@@ -1,0 +1,2 @@
+[1/2] /usr/bin/c++   -isystem /home/maciek/git/maciej/cmake-library-example/install/include -g   -std=gnu++11 -MD -MT CMakeFiles/another-application.dir/main.cpp.o -MF CMakeFiles/another-application.dir/main.cpp.o.d -o CMakeFiles/another-application.dir/main.cpp.o -c ../main.cpp
+[2/2] : && /usr/bin/c++  -g   CMakeFiles/another-application.dir/main.cpp.o  -o another-application  /home/maciek/git/maciej/cmake-library-example/install/lib/libSomeLibraryd.a && :

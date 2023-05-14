@@ -1,7 +1,7 @@
 .cache
 build
-
-
+.idea
+*.a
 compile_commands.json
 
 *.sublime-*

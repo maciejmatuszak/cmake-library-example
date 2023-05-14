@@ -16,3 +16,9 @@ target_sources(${PROJECT_NAME}
 )
 
 target_link_libraries(${PROJECT_NAME} PRIVATE some::SomeLibrary)
+
+LIST(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
+include(Debug)
+dump_cmake_variables()
+dump_target_properties(${PROJECT_NAME})
